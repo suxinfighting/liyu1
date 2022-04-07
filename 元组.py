@@ -51,10 +51,32 @@ print(tup9[-1])
 '''
 元组方法-index
 '''
-tup11 = tuple('hogwarts')
-print(tup11.index('o'))
-print(tup11.index('x'))
-print(tup11.count('o'))
+# tup11 = tuple('hogwarts')
+# print(tup11.index('o'))
+# print(tup11.index('x'))
+# print(tup11.count('o'))
+'''
+元组解包-赋值
+把列表 [1，2，3]赋值给a,b,c
+'''
+#  传统
+li = [1, 2, 3]
+# a = li[0]
+# b = li[1]
+# c = li[3]
+# print(a, b, c)
+
+# 元组解包
+(a, b, c) = li
+print(a, b, c)
+
+
+# tuple1 = ('a', 'b', 'c')
+# tuple1 = li
+#
+# print(type(tuple1), tuple1)
+
+
 '''
 元组定义
 '''
